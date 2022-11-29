@@ -1,0 +1,21 @@
+.inputWrapper{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-self: center;
+    height: 38px;
+    width: 227px;
+}
+.inputWrapper input{
+    border: none;
+    font-family: 'Poppins';
+    background-color: inherit;
+}
+.inputWrapper input:focus{
+    outline: none;
+}
+.inputWrapper img{
+    width: 22px;
+    padding-left: 10px;
+}

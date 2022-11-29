@@ -1,0 +1,71 @@
+.studentsecondbx{
+    display: flex;
+    justify-content: space-between;
+
+}
+.filter{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.greenTxt{
+    color: #16C098;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
+table tr th{
+    text-align: start;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #B5B7C0;
+padding: 24px 0;
+border-bottom: 1px solid #EEEEEE;
+}
+table tr td{
+    padding:  24px 0;
+    text-align: start;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* color: #B5B7C0; */
+border-bottom: 1px solid #EEEEEE;
+}
+table tr td button{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #008767;
+background: rgba(22, 192, 152, 0.38);
+border: 1px solid #00B087;
+border-radius: 4px;
+padding: 4px 12px;
+}
+table tr td button:active{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #008767;
+background: rgba(22, 192, 152, 0.38);
+border: 1px solid #00B087;
+border-radius: 4px;
+padding: 4px 12px;
+opacity: 0.7;
+}
+
+.pagination{
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
