@@ -1,8 +1,8 @@
 // import { Dropdown } from "antd";
 import { Select } from "antd";
 import React from "react";
-import Example from "../Dashboard";
-import setting from "./../../assets/svg/setting.svg";
+// import Example from "../Dashboard";
+// import setting from "./../../assets/svg/setting.svg";
 import Box from "./box";
 import "./style.css";
 import statistics from './../../assets/img/statistics.jpg'

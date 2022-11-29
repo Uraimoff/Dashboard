@@ -12,7 +12,7 @@ const Groups = () => {
     <div className="smbxCn">
       <div className="smbxWr">
         <div className="secondaryTxt">December 20, 2022</div>
-        <img src={threedots} />
+        <img src={threedots} alt=""/>
       </div>
       <div>
         <div className="boxName">Frontent 010</div>
