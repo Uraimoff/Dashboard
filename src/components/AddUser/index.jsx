@@ -1,4 +1,4 @@
-import { message } from "antd";
+// import { message } from "antd";
 import React, { useState } from "react";
 import useRequest from "../../hooks/useRequest";
 import Input from "../Generic/Input";
@@ -11,9 +11,9 @@ const AddUser = () => {
   const [body, setBody] = useState({});
   const request = useRequest();
 
-  const info = () => {
-    message.info("Successfully added");
-  };
+  // const info = () => {
+  //   message.info("Successfully added");
+  // };
 
   const onChange = ({ target: { value, name } }) => {
     setBody({

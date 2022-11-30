@@ -4,12 +4,12 @@ import users from "./../../assets/svg/users.svg";
 import user from "./../../assets/svg/user.svg";
 import noUser from "./../../assets/svg/noUser.svg";
 import online from "./../../assets/svg/online.svg";
-import { Select } from "antd";
+// import { Select } from "antd";
 import Input from "./../Generic/Input";
 import { Pagination } from 'antd';
 import "./style.css";
 import { useNavigate } from "react-router-dom";
-import { dato } from "../mock/data";
+// import { dato } from "../mock/data";
 
 const Students = () => {
   const [data, setData] = useState([]);
