@@ -37,3 +37,11 @@ export const obj = [
       path: "/help"
     },
   ];
+  export const dato =[
+    {
+      name: "Ibrohim Uraimov",
+      phone: "998939485776",
+      email: "uraimovibrohim@gmail.com",
+      job: "Frontend"
+    },
+  ]

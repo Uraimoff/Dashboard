@@ -6,6 +6,7 @@ import Students from "../components/Students";
 import Schedule from "../components/Schedule";
 import Settings from "../components/Settings";
 import Help from "../components/Help";
+import AddUser from "../components/AddUser";
 
 // const Home = React.lazy(()=>import("./../pages/Home"));
 
@@ -51,6 +52,13 @@ export const navbar = [
     path: "/help",
     element: <Help />,
     title: "Home",
+    private: false,
+    hidden: false,
+  },
+  {
+    path: "/adduser",
+    element: <AddUser />,
+    title: "Add user",
     private: false,
     hidden: false,
   },

@@ -8,12 +8,15 @@ import { Select } from "antd";
 import Input from "./../Generic/Input";
 import { Pagination } from 'antd';
 import "./style.css";
+import { useNavigate } from "react-router-dom";
+import { dato } from "../mock/data";
 
 const Students = () => {
   const [data, setData] = useState([]);
+  const navigate = useNavigate()
   // https://jsonplaceholder.typicode.com/users
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("https://6385c5f4beaa64582667e624.mockapi.io/api/v1/studentCreate")
       .then((res) => res.json())
       .then((res) => {
         // console.log(res, "res dan qaytgan malumot");
@@ -77,10 +80,11 @@ const Students = () => {
                       placeholder="Qidiruv"
                       background={"#F9FBFF"}
                     />
-                    <Select name="" id="" defaultValue={"Select Sort"}>
+                    {/* <Select name="" id="" defaultValue={"Select Sort"}>
                       <Select.Option value="asc">Yillar</Select.Option>
                       <Select.Option value="desc">Oylar</Select.Option>
-                    </Select>
+                    </Select> */}
+                  <button className="AdddBtn" onClick={()=>navigate('/adduser')}>Add User</button>
                   </div>
                 </div>
                 <div>
@@ -95,11 +99,11 @@ const Students = () => {
                     </tr>
                     {data.map((value) => (
                       <tr>
-                        <td>{value.name}</td>
-                        <td>{value.website}</td>
-                        <td>{value.phone}</td>
+                        <td>{value.firstName} {value.lastName}</td>
+                        <td>{value.email}</td>
+                        <td>{value.phoneNumber}</td>
                         <td>697 000</td>
-                        <td>{value.username}</td>
+                        <td>{value.direction}</td>
                         <td>
                           <button>Active</button>
                         </td>
